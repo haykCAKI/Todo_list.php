@@ -1,0 +1,105 @@
+/* style.css */
+
+body {
+   background: #f5f5f5;
+   font-family: Arial, sans-serif;
+}
+
+.main-section {
+   background: #fff;
+   max-width: 600px;
+   width: 90%;
+   margin: 30px auto;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.add-section {
+   width: 100%;
+   background: #0088FF;
+   margin-bottom: 20px;
+   padding: 10px;
+   border-radius: 5px;
+   text-align: center;
+}
+
+.add-section input[type="text"],
+.add-section textarea {
+   width: calc(100% - 22px);
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.add-section button {
+   height: 40px;
+   padding: 5px 15px;
+   border: none;
+   border-radius: 5px;
+   background: #fff;
+   color: #0088FF;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.add-section button:hover {
+   background: #ddd;
+}
+
+.show-todo-section {
+   width: 100%;
+   background: #f5f5f5;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+.todo-item {
+   background: #fff;
+   margin: 10px 0;
+   padding: 15px;
+   border-radius: 5px;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.todo-item h2 {
+   margin-bottom: 5px;
+   font-size: 18px;
+   color: #333;
+}
+
+.todo-item p {
+   font-size: 16px;
+   color: #666;
+}
+
+.todo-item small {
+   font-size: 14px;
+   color: #888;
+}
+
+.todo-item .btn-delete,
+.todo-item .btn-update {
+   background-color: #FF4136;
+   color: #fff;
+   border: none;
+   padding: 8px 12px;
+   margin-left: 5px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.todo-item .btn-update {
+   background-color: #0088FF;
+}
+
+.todo-item .btn-delete:hover,
+.todo-item .btn-update:hover {
+   background-color: #E7040F;
+}
