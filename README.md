@@ -1,6 +1,6 @@
 Herick Akio Yoshii Kumata
 
-<h3>Aplicativo de de lista de tarefas (To-do List) desenvolvito com PHP, MySQL, HTML e CSS
+<h3>Aplicativo de lista de tarefas (To-do List) desenvolvido com PHP, MySQL, HTML e CSS
 e JavaScript (AJAX). O aplicativo permite criar, ler, atualizar e deletar tarefas (CRUD).</h3>
 
 <h1>Estrutura do Projeto</h1>
